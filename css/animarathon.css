@@ -1,0 +1,67 @@
+.backdrop {
+	background: white;
+        margin-bottom: 1em;
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right: .5em;
+}
+
+/*Typography*/
+h1 {
+	font-family: "Sniglet", sans-serif;
+	font-size: 2vw;
+}
+
+h2 {
+	font-family: "League Gothic", sans-serif;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+nav {
+	font-family: "Ostrich Sans Regular", sans-serif;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: .3em;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	animation: change_color 6s infinite;
+}
+
+/*Animation*/
+body {
+	animation: bg_change_color 60s infinite;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	animation: change_color 60s infinite;
+}
+
+a .button {
+	animation: bg_change_color 60s infinite;
+	color: white;
+}
+
+/*Animation Definitions*/
+@keyframes change_color {
+	000% {color: #e56372;}
+	050% {color: #e56f3b;}
+	100% {color: #e56372;}
+}
+
+@keyframes bg_change_color {
+	000% {background: #e56372;}
+	050% {background: #e56f3b;}
+	100% {background: #e56372;}
+}
