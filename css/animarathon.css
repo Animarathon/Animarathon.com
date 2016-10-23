@@ -1,21 +1,21 @@
-.backdrop {
-	background: white;
-        margin-bottom: 1em;
-}
-
-nav ul li {
-	display: inline;
-	list-style: none;
-	margin-right: .5em;
-}
-
 /*Typography*/
-h1 {
-	font-family: "Sniglet", sans-serif;
-	font-size: 2vw;
+@font-face {
+  font-family: "Ostrich Sans Regular";
+  src: local("Ostrich Sans Regular"),
+       url("../media/typefaces/ostrich_sans/ostrich-sans-regular.ttf"),
+       url("../media/typefaces/ostrich_sans/ostrich-sans-regular.woff"),
+       url("../media/typefaces/ostrich_sans/ostrich-sans-regular.svg");
+}
+@font-face {
+  font-family: "League Gothic";
+  src: local("League Gothic"),
+       url("../media/typefaces/league_gothic/leaguegothic-regular-webfont.ttf"),
+       url("../media/typefaces/league_gothic/leaguegothic-regular-webfont.woff"),
+       url("../media/typefaces/league_gothic/leaguegothic-regular-webfont.eot"),
+       url("../media/typefaces/league_gothic/leaguegothic-regular-webfont.svg");
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: "League Gothic", sans-serif;
 }
 
@@ -25,19 +25,37 @@ p {
 
 nav {
 	font-family: "Ostrich Sans Regular", sans-serif;
-	text-align: center;
 	font-size: 2em;
-	letter-spacing: .3em;
+	letter-spacing: .1em;
+	width: 100vw;
+  text-align: center;
 }
 
-nav a{
+nav a {
+
 	text-decoration: none;
 }
 
-a:hover{
+a:hover {
 	text-decoration: none;
 	animation: change_color 6s infinite;
 }
+
+/*Utility*/
+.backdrop {
+	background: white;
+  margin-bottom: 1em;
+}
+
+nav {
+  width: 100%;
+}
+
+nav a {
+	list-style: none;
+	
+}
+
 
 /*Animation*/
 body {
@@ -64,4 +82,3 @@ a .button {
 	000% {background: #e56372;}
 	050% {background: #e56f3b;}
 	100% {background: #e56372;}
-}
