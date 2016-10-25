@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+SITEMAP: http://animarathon.com/sitemap.xml
