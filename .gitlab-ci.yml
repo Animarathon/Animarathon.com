@@ -4,11 +4,9 @@ pages:
   stage: deploy
   script:
   - mkdir .public
+  - cp -r .well-known/acme-challenge/ .public
   - cp -r * .public
   - mv .public public
-  - mkdir .cert
-  - cp -r /.well-known/acme-challenge/* .cert
-  - mv .cert public
   artifacts:
     paths:
     - public
