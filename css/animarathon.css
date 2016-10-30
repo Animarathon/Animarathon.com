@@ -4,6 +4,7 @@
   src: local("Ostrich Sans Regular"),
        url("../media/typefaces/ostrich_sans/ostrich-sans-regular.ttf"),
        url("../media/typefaces/ostrich_sans/ostrich-sans-regular.woff"),
+       url("../media/typefaces/ostrich_sans/ostrich-sans-regular.eot"),
        url("../media/typefaces/ostrich_sans/ostrich-sans-regular.svg");
 }
 @font-face {
