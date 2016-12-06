@@ -5,11 +5,12 @@ pages:
   script:
   - mkdir .public
   - mkdir .public/.well-known
+  - mkdir .public/.temp
   - mkdir .public/.well-known/acme-challenge
   - cp -r .well-known/acme-challenge/* .public/.well-known/acme-challenge/
-  - cp -r * .public
-  - cp .public public
-  - rename .html '' *.html
+  - cp -r *.html .public/temp
+  - for file in .public/temp/*.html; do mv "$file" "${file/.html/''}"; done
+  - mv .public/temp/ .public
   - cp -r * .public
   - mv .public public
   artifacts:
