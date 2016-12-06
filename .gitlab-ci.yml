@@ -11,6 +11,7 @@ pages:
   - cp -r *.html .public/temp
   - for file in .public/temp/*.html; do mv "$file" "${file%.*}"; done
   - cp .public/temp/* .public
+  - rm -r .public/temp/
   - cp -r * .public
   - mv .public public
   artifacts:
