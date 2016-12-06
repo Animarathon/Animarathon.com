@@ -10,7 +10,7 @@ pages:
   - cp -r .well-known/acme-challenge/* .public/.well-known/acme-challenge/
   - cp -r *.html .public/temp
   - for file in .public/temp/*.html; do mv "$file" "${file%.*}"; done
-  - mv .public/temp/* public
+  - cp .public/temp/* .public
   - cp -r * .public
   - mv .public public
   artifacts:
