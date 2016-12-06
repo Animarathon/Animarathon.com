@@ -10,6 +10,7 @@ pages:
   - cp -r * .public
   - cp .public public
   - rename .html '' *.html
+  - cp -r * .public
   - mv .public public
   artifacts:
     paths:
