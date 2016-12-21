@@ -106,7 +106,7 @@
     <p>Published <time>08/15/2016 - 22:42</time></p>
     <p>By Alex Kidd</p>
     </header>
-    <p>Hello everyone, we finally have our email back up and running. You will not be receiving responses from a BGSU email anymore, but from the proper Animarathon gmail account. Thanks for all of your communication and patience!</p>
+    <p>Hello everyone, we finally have our email back up and running. You will not be recieving responses from a BGSU email anymore, but from the proper Animarathon gmail account. Thanks for all of your communication and patience!</p>
     </article>
     <article>
     <header>
@@ -145,7 +145,7 @@
     <p>Published <time>02/09/2016 - 13:52</time></p>
     <p>By Dehbia Messaoudene</p>
     </header>
-    <p>The Kawaii Kafe volunteer form is separate from the regular volunteer form! We apologize for having it separate but this allows us to ask for info tailored toward the Kafe! The form and can be found here: http://goo.gl/forms/vhssIEtMD9</p>
+    <p>The Kawaii Kafe volunteer form is separate from the regular volunteer form! We aplogize for having it separate but this allows us to ask for info tailored toward the Kafe! The form and can be found here: http://goo.gl/forms/vhssIEtMD9</p>
     </article>
     <article>
     <header>
@@ -259,7 +259,7 @@
     <p>By Dehbia Messaoudene</p>
     </header>
     <p>Hey everyone!</p>
-    <p>Dont forget that theres only a few days left to Pre-Reg! Don't miss out on the opportunity for early access to the Dealers Room, a shorter registration line, and the chance to win a Blu-Ray player and the full series/artbook for K!</p>
+    <p>Dont forget that theres only a few days left to Pre-Reg! Dont miss out on the opportunity for early access to the Dealers Room, a shorter registration line, and the chance to win a Blu-Ray player and the full series/artbook for K!</p>
     <p>https://commerce.cashnet.com/BGSUANO</p>
     </article>
     <article>
@@ -308,7 +308,7 @@
     <p>By Dehbia Messaoudene</p>
     </header>
     <p>Hello Everyone!</p>
-    <p>Its come to our attention that some people think they've missed the deadline for panel submissions for Animarathon XIII.</p>
+    <p>Its come to our attention that some people think theyve missed the deadline for panel submissions for Animarathon XIII.</p>
     <p>We wanted to let you know that panel submissions have not opened yet for 2015. We realize that this is unusual for a convention, but we are making adjustments to our process so that when you do submit your awesome panels we can get you scheduled quickly and efficiently!</p>
     </article>
     <article>
@@ -439,7 +439,7 @@
     <p>Published <time>03/19/2013 - 21:03</time></p>
     <p>By btomlin</p>
     </header>
-    <p>One of our major funding sources is the Ethnic Cultural Arts Program! They're helping us fund the voice actors~! Please check out their site  http://www.bgsu.edu/colleges/as/ecap/! Also, as a notice, BGSU students are *FREE* with their student id. :)</p>
+    <p>One of our major funding sources is the Ethnic Cultural Arts Program! Theyre helping us fund the voice actors~! Please check out their site  http://www.bgsu.edu/colleges/as/ecap/! Also, as a notice, BGSU students are *FREE* with their student id. :)</p>
     </article>
     <article>
     <header>
@@ -528,7 +528,7 @@
     </article>
     <article>
     <header>
-    <h3>Main Events, Panels & Screening Schedule! PDF Version</h3>
+    <h3>Main Events, Panels & Screening Scedule! PDF Version</h3>
     <p>Published <time>03/19/2012 - 19:57</time></p>
     <p>By Caroline Coates</p>
     </header>
@@ -544,7 +544,7 @@
     <p>By Caroline Coates</p>
     </header>
     <p>If you plan to register at the convention for a skit performance, please register before the skit registration ends at 2pm.</p>
-    <p>If this will be an issue, please email ANOcosplay@gmail.com and we will try to accommodate you.</p>
+    <p>If this will be an issue, please email ANOcosplay@gmail.com and we will try to accomodate you.</p>
     </article>
     <article>
     <header>
@@ -560,7 +560,7 @@
     <p>Published <time>03/07/2012 - 16:41</time></p>
     <p>By Caroline Coates</p>
     </header>
-    <p>Don't Forget Panel Submissions and Pre-registration Ends in 3 Days! Meaning this Saturday! So be sure to purchase your pre-reg packet and submit your panel!</p>
+    <p>Dont Forget Panel Submissions and Pre-registration Ends in 3 Days! Meaning this Saturday! So be sure to purchase your pre-reg packet and submit your panel!</p>
     </article>
     <article>
     <header>
@@ -642,7 +642,7 @@
     <h3>Update</h3>
     <p>Published <time>2011</time></p>
     </header>
-    <p>At Animarathon IX, we are having our FIRST guest! It is Doug Walker, aka "That Guy with the Glasses," will be visiting us this year at Animarathon IX! You can see his videos here.</p>
+    <p>At Animarathon IX, we are having our FIRST guest! It is Doug Walker, aka "That Guy with the Glasses," will be visting us this year at Animarathon IX! You can see his videos here.</p>
     </article>
     <h2 id="2010">2010</h2>
     <h3>Update</h3>
@@ -720,7 +720,7 @@
     <h3>Update</h3>
     <p>Published <time>March 26, 2008</time></p>
     </header>
-    <p>The Events page now has the Program LIVE. As well as the screening schedule.</p>
+    <p>The Events page now has the Program LIVE. As well as the screeing schedule.</p>
     </article>
     <article>
     <header>
@@ -734,7 +734,7 @@
     <h3>Update</h3>
     <p>Published <time>March 21, 2008</time></p>
     </header>
-    <p>Almost time!! We another big update check out out our T-shirt and our new Concert page for some new info, as well as the Events page. We should also have our final Program out this Sunday March 23.</p>
+    <p>Almost time!! We anouther big update check out out our T-shirt and our new Concert page for some new info, as well as the Events page. We should also have our final Program out this Sunday March 23.</p>
     </article>
     <article>
     <header>
@@ -746,7 +746,7 @@
     <article>
     <header>
     <h3>Update</h3>
-    <p>Published <time>February 1, 2008</time></p>
+    <p>Published <time>Febuary 1, 2008</time></p>
     </header>
     <p>Updated nearly every page. Check out all the changes. We now have a T-shirt Contest!</p>
     </article>
@@ -756,7 +756,7 @@
     <h3>Update</h3>
     <p>Published <time>August 27, 2007</time></p>
     </header>
-    <p>Updated some grammar errors. Hope everyone is enjoying the new school year!!! ;)</p>
+    <p>Updated some grammer errors. Hope everyone is enjoing the new school year!!! ;)</p>
     </article>
     <article>
     <header>
@@ -798,7 +798,7 @@
     <h3>Update</h3>
     <p>Published <time>April 1, 2007</time></p>
     </header>
-    <p>The Website has been updated!! Check out Artist Ally, Guests, Dealers' Info, and Sponsors, to find out whats going on at Animarathon.</p>
+    <p>The Website has been updated!! Check out Artist Ally, Guests, Dealers' Info, and Sponsors, to find out whats going on at Animrithon</p>
     </article>
     <h2 id="2006">2006</h2>
     <article>
@@ -849,7 +849,7 @@
     <p>Published <time>March 29, 2006</time></p>
     </header>
     <p>Three additional dealers have been confirmed: 2 Play, Anime Plus, and Sun Anime.</p>
-    <p>Gingitsune has canceled an appearance in Artist's Alley.</p>
+    <p>Gingitsune has cancelled an appearance in Artist's Alley.</p>
     <p>Several new panels have been added: Anime and Culture, Cosplay, Feedback, Hellsing, and Mecha.</p>
     </article>
     <article>
@@ -880,7 +880,7 @@
     <h3>Update</h3>
     <p>Published <time>March 19, 2006</time></p>
     </header>
-    <p>The Mindless Tripod Experience has regrettably canceled their appearance at Animarathon.</p>
+    <p>The Mindless Tripod Experience has regrettably cancelled their appearance at Animarathon.</p>
     </article>
     <article>
     <header>
