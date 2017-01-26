@@ -65,6 +65,10 @@
     <priority>0.1</priority>
   </url>
   <url>
+    <loc>https://animarathon.com/sell.html</loc>
+    <priority>0.1</priority>
+  </url>
+  <url>
     <loc>https://animarathon.com/credits.html</loc>
     <priority>0.1</priority>
   </url>
