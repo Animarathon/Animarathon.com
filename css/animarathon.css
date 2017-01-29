@@ -45,7 +45,16 @@ a:hover {
 /*Utility*/
 .backdrop {
 	background: white;
-  margin-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.prominent-text {
+    text-align: center;
+}
+
+.prominent-box {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
