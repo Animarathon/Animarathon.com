@@ -63,7 +63,6 @@ nav {
 
 nav a {
 	list-style: none;
-	
 }
 
 
@@ -83,6 +82,12 @@ h1, h2, h3, h4, h5, h6, a {
 a .button {
 	animation: bg_change_color 60s infinite;
 	color: white;
+}
+
+footer {
+	background: white;
+    margin-bottom: 0;
+    border-bottom: 0;
 }
 
 /*Animation Definitions*/
