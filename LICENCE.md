@@ -38,6 +38,10 @@ They are generally restricted for Anime In Northwest Ohio and Animarathon use on
 
 Contact us for more information.
 
+# Material Icon Licence
+
+The Material Icons are licenced under the Apache Licence. 
+
 # Typefaces License
 
 The Webfonts used by the Animarathon Website are licensed under the SIL Open Font License, which is contained in each font folder.
