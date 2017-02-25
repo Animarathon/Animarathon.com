@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://animarathon.com/index.html</loc>
+    <loc>https://animarathon.com/index</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/amp/mobile.html</loc>
+    <loc>https://animarathon.com/amp/mobile</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/animarathon.html</loc>
+    <loc>https://animarathon.com/animarathon</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/register.html</loc>
+    <loc>https://animarathon.com/register</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/animapathon.html</loc>
+    <loc>https://animarathon.com/animapathon</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/special-guests.html</loc>
+    <loc>https://animarathon.com/special-guests</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/panels.html</loc>
+    <loc>https://animarathon.com/panels</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/events.html</loc>
+    <loc>https://animarathon.com/events</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/rules.html</loc>
+    <loc>https://animarathon.com/rules</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/contact.html</loc>
+    <loc>https://animarathon.com/contact</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/ano.html</loc>
+    <loc>https://animarathon.com/ano</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/related.html</loc>
+    <loc>https://animarathon.com/related</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/officers.html</loc>
+    <loc>https://animarathon.com/officers</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/archive.html</loc>
+    <loc>https://animarathon.com/archive</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/gallery.html</loc>
+    <loc>https://animarathon.com/gallery</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/news.html</loc>
+    <loc>https://animarathon.com/news</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/sell.html</loc>
+    <loc>https://animarathon.com/sell</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/credits.html</loc>
+    <loc>https://animarathon.com/credits</loc>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/cosplay.html</loc>
+    <loc>https://animarathon.com/cosplay</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/guide.html</loc>
+    <loc>https://animarathon.com/guide</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://animarathon.com/freshman-guide.html</loc>
+    <loc>https://animarathon.com/freshman-guide</loc>
     <priority>0.1</priority>
   </url>
 </urlset>
