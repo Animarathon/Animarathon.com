@@ -90,6 +90,14 @@ footer {
     border-bottom: 0;
 }
 
+table {
+    overflow-x: auto;
+}
+
+tr:hover {
+    background-color: #bebebe;
+}
+
 /*Animation Definitions*/
 @keyframes change_color {
 	000% {color: #e56372;}
