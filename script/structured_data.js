@@ -3,7 +3,7 @@
  "@type": "Event",
  "name": "Animarathon XVI",
  "startDate": "2018-02-10T9:00",
- "doorTime": "2018-02-11T9:00",
+ "doorTime": "2018-02-10T9:00",
  "endDate": "2018-02-11T17:30",
  "url": "https://animarathon.com/animarathon.html",
  "image": "https://animarathon.com/media/media_nonfree/sisters.png",
