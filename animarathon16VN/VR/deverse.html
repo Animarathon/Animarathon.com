@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>:::Deverse:::</title>
+    <!-- Aframe framework-->
+    <script src="./aframe/aframe-master.min.js"></script>
+</head>
+
+<body>
+<a-scene>
+    <!--Assets-->
+    <a-assets>
+        <img id="welcome_sign" src="./images/deverse/welcome_sign.svg"></img>
+        <img id="construction" src="./images/deverse/construction.png"></img>
+        <img id="pub_floor" src="./images/deverse/pub_floor.png"></img>
+        <img id="stripe" src="./images/deverse/stripe.png"></img>
+        <img id="lion_face" src="./images/deverse/lion_face.png"></img>
+        <img id="happy_face" src="./images/deverse/happy_face.png"></img>
+        <img id="danknutta" src="./images/deverse/danknutta.png"></img>
+        <img id="dokidokidood" src="./images/deverse/dokidokidood.png"></img>
+        <img id="exit" src="./images/deverse/exit.png"></img>
+        <img id="tentacle" src="./images/deverse/tentacle.svg"></img>
+        <img id="gpm" src="./images/deverse/geepm.svg"></img>
+        <audio id="music" src="./music/Orange Beach.opus"></audio>
+    </a-assets>
+
+    <!--Controls-->
+    <a-camera wasd-controls fov="80"></a-camera>
+    <!--Room-->
+    <a-plane rotation="-90 0 0" height="20" width="20" src="#pub_floor" repeat="100 100" flatShading="true"></a-plane>
+    <a-plane color="#000000" rotation="90 90 -90" height="20" width="20" position="0 5 0" flatshading="true"></a-plane>
+    <!--Walls-->
+    <a-plane position="0 2.5 -10" height="5" width="20"  src="#pub_floor" repeat="3 3" flatShading="true"></a-plane>
+    <a-plane position="0 2.5 10" rotation="0 180 0" height="5" width="20" src="#pub_floor" repeat="3 3" flatShading="true"></a-plane>
+    <a-plane position="-10 2.5 0" rotation="0 90 0" height="5" width="20" src="#pub_floor" repeat="3 3" flatShading="true"></a-plane>
+    <a-plane position="10 2.5 0" rotation="0 -90 0" height="5" width="20" src="#pub_floor" repeat="3 3" flatShading="true"></a-plane>
+    <!--Exit-->
+    <a-triangle vertex-a="2 0 -9.95" vertex-b="0 5 -9.95" vertex-c="-2 0 -9.95" flatShading="true"></a-triangle>
+    <a-image src="#exit" position="0 3 -9.9" width="1" height="0.25" flatShading="true"></a-image>
+    <!--Table-->
+    <a-cone color="#FF7300" position="0 0.5 -2" rotation="0 180 180" flatShading="true"></a-cone>
+    <a-cylinder color="#FF7300" position="0 1.1 -2" height="0.2" radius="0.1" flatShading="true"></a-cylinder>
+    <!--Disco Ball-->
+    <a-entity>
+        <a-sky color="#FF7300" position="0 3 -2" radius="0.6" repeat="20 20" wireframe="true" flatShading="true">
+        <a-animation direction="alternate"
+                     attribute="rotation"
+                     dur="50000"
+                     fill="forwards"
+                     ease="linear"
+                     to="0 1080 0"
+                     repeat="indefinite">
+        </a-animation>
+    </a-entity>
+    <a-sound src="#music" autoplay="true" loo="true" position="0 3 -2" volume="0.25"></a-sound>
+    <!--Bar-->
+    <a-box position="-3 0.5 -5" height="1" width="2" rotation="0 45 0" src="#pub_floor" repeat="2 2" flatShading="true"></a-box>
+    <a-entity>
+        <a-entity>
+            <a-box color="#B5E5FF" rotation="0 45 45" flatShading="true"></a-box>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="4000"
+                         from="-4 1.5 -6"
+                         to="-4 1.7 -6"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-image src="#happy_face" position="" width="1" height="0.25" rotation="0 45 0" flatShading="true"></a-image>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="4000"
+                         from="-3.64 1.5 -5.64"
+                         to="-3.64 1.7 -5.64"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-plane color="#FFFFFF" width="1" height="0.25" rotation="0 45 0" flatShading="true"></a-plane>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="4000"
+                         from="-4.01 2.5 -6.01"
+                         to="-4.01 2.7 -6.01"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-image src="#dokidokidood" width="1" height="0.25" rotation="0 45 0" flatShading="true"></a-image>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="4000"
+                         from="-4 2.5 -6"
+                         to="-4 2.7 -6"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+    </a-entity>
+    <!--Bar-->
+    <a-box position="3 0.5 -5" height="1" width="2" rotation="0 -45 0" src="#pub_floor" repeat="2 2" flatShading="true"></a-box>
+    <a-entity>
+        <a-entity>
+            <a-box color="#B5E5FF" rotation="0 -45 45" flatShading="true"></a-box>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="2000"
+                         from="4 1.5 -6"
+                         to="4 1.7 -6"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-image src="#lion_face" position="" width="1" height="0.25" rotation="0 -45 0" flatShading="true"></a-image>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="2000"
+                         from="3.64 1.5 -5.64"
+                         to="3.64 1.7 -5.64"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-plane color="#FFFFFF" width="2" height="0.25" rotation="0 -45 0" flatShading="true"></a-plane>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="2000"
+                         from="4.01 2.5 -6.01"
+                         to="4.01 2.7 -6.01"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+        <a-entity>
+            <a-image src="#danknutta" width="2" height="0.25" rotation="0 -45 0" flatShading="true"></a-image>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="2000"
+                         from="4 2.5 -6"
+                         to="4 2.7 -6"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+    </a-entity>
+    <!--Bar-->
+    <a-box position="-3 0.5 5" height="1" width="2" rotation="0 -45 0" src="#pub_floor" repeat="2 2" flatShading="true"></a-box>
+    <!--Bar-->
+    <a-box position="3 0.5 5" height="1" width="2" rotation="0 45 0" src="#pub_floor" repeat="2 2" flatShading="true"></a-box>
+    <!--Outside Path-->
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.1" position="3 0.0 -15" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.15" position="-3 0.0 -20" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.2" position="3 0.0 -35" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.15" position="-3 0.0 -50" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.4" position="3 0.0 -75" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.3" position="-3 0.0 -120" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.2" position="3 0.0 -140" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="0.15" position="-3 0.0 -160" rotation="-90 0 0"></a-ring>
+    <a-ring color="#000000" radius-outer="2" radius-inner="1.9" position="3 0.0 -180" rotation="-90 0 0"></a-ring>
+    <!--End it-->
+    <a-cone color="#FFFFFF" position="0 0.5 -200" rotation="0 180 180" flatShading="true"></a-cone>
+    <a-ring color="#000000" radius-outer="2" radius-inner="1.9" position="0 1.0 -200" rotation="-90 0 0"></a-ring>
+    <!--Maryland-->
+    <a-sky src="#stripe" repeat="60 60"  position="0 1.0 -200" radius="64"></a-sky>
+        <a-entity>
+            <a-image src="#gpm" width="12.11" height="41.84" flatShading="true"></a-image>
+            <a-animation direction="alternate"
+                         attribute="position"
+                         dur="40000"
+                         from="-0.2 17.2 -203"
+                         to="-0.2 17 -203"
+                         repeat="indefinite">
+            </a-animation>
+        </a-entity>
+
+    <!--Sky-->
+    <a-sky color="#FFFFFF"></a-sky>
+</a-scene>
+</body>
+
+</html>
